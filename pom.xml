@@ -27,16 +27,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.ballerinalang</groupId>
-            <artifactId>ballerina-core</artifactId>
-            <version>${ballerina.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.ballerinalang</groupId>
-            <artifactId>ballerina-launcher</artifactId>
-            <version>${ballerina.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
             <version>${log4j.version}</version>
@@ -44,7 +34,6 @@
     </dependencies>
 
     <properties>
-        <ballerina.version>0.8.3-SNAPSHOT</ballerina.version>
         <log4j.version>2.8</log4j.version>
     </properties>
 </project>
