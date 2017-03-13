@@ -25,6 +25,14 @@
     <artifactId>test1</artifactId>
     <packaging>jar</packaging>
 
+    <distributionManagement>
+        <repository>
+            <id>test-releases-manuri</id>
+            <name>Release Repository</name>
+            <url>http://test/manuri/</url>
+        </repository>
+    </distributionManagement>
+
     <scm>
         <url>https://github.com/manuri/ballerina-automation-test-1.git</url>
         <developerConnection>scm:git:https://github.com/manuri/ballerina-automation-test-1.git</developerConnection>
